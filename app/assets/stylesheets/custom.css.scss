@@ -1,0 +1,94 @@
+$navbar-default-bg: #45B39D;
+
+#logo{
+    float:left;
+    color:#34495E  ;
+    text-transform: uppercase;
+    font-weight:bold;
+    
+}
+
+logo:hover{
+    
+    
+}
+.center{
+    
+    text-align:center;
+    
+    
+}
+.jumbotron{
+    
+    background-image: asset-url('img7.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 1300px;
+    
+}
+
+.create_an_account{
+    
+       background-image: asset-url('img5.jpg');
+    background-size: cover;
+    height: 500px;
+}
+.sign_up{
+    
+    background-image: asset-url('img8.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 1300px;
+    
+}
+.jumbotron h1 {
+
+color: #fff;
+
+text-align: center;
+margin-bottom: 30px;
+letter-spacing: -1px;
+font-weight: bold;
+
+}
+.btn-xlarge {
+
+font-size: 1.7em;
+
+background-color: black;
+
+}
+footer{
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover{
+    color: #222;
+    }
+    
+    footer small{
+        float: left;
+    }
+    
+    footer ul{
+        float :right;
+        list-style: none;
+        }
+        footer ul li 
+        {
+            float: left;
+            margin-left: 15px;
+        }
+        .jumbotron h2{
+    
+    background-image: asset-url('travel_quotes_03.jpg');
+    background-size: cover;
+    height: 50px;
+    
+}
+
+@import "bootstrap-sprockets";
+@import "bootstrap"; 
